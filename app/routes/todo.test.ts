@@ -1,7 +1,7 @@
 import request from "supertest";
 import { describe, expect, it } from "vitest";
 
-import { app } from "../app";
+import { app } from "..";
 
 describe("Todo Endpoints", () => {
 	it("POST / should create a new todo", async () => {
